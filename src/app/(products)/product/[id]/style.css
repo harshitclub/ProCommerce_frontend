@@ -1,0 +1,231 @@
+.productInfo > .productInfoContainer {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 0.3rem;
+  margin: 1rem 0 1rem 0;
+}
+
+.productInfo > .productInfoContainer > .productImages > .mainImage > img {
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+.productInfo > .productInfoContainer > .productImages > .otherPImages > img {
+  width: 20%;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+.productInfo
+  > .productInfoContainer
+  > .productDetails
+  > .productDContent
+  > .breadCrumbs {
+  color: var(--color2);
+  margin: 0 0 1.5rem 0;
+}
+
+.productInfo
+  > .productInfoContainer
+  > .productDetails
+  > .productDContent
+  > .breadCrumbs
+  > a {
+  color: var(--color1);
+}
+
+.productInfo
+  > .productInfoContainer
+  > .productDetails
+  > .productDContent
+  > .breadCrumbs
+  > a:hover {
+  color: var(--color2);
+  transition: 0.2s all ease-in-out;
+}
+
+.productInfo > .productInfoContainer > .productDetails > .productDContent > h1 {
+  font-size: 1.6rem;
+  margin: 0 0 1.5rem 0;
+  font-size: 700;
+  color: var(--mainBg3);
+}
+
+.productInfo
+  > .productInfoContainer
+  > .productDetails
+  > .productDContent
+  > .productDesc {
+  margin: 0 0 1.5rem 0;
+  color: var(--mainBg4);
+}
+
+.productInfo
+  > .productInfoContainer
+  > .productDetails
+  > .productDContent
+  > .productPrice {
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 0 0 1.5rem 0;
+  color: var(--mainBg4);
+}
+
+.productInfo
+  > .productInfoContainer
+  > .productDetails
+  > .productDContent
+  > .productPrice
+  > span {
+  color: var(--color2);
+  font-size: 1.3rem;
+}
+
+.productInfo
+  > .productInfoContainer
+  > .productDetails
+  > .productDContent
+  > .addCartWish {
+  border-bottom: 1px solid var(--light4);
+  padding: 0 0 1rem 0;
+}
+
+.productInfo
+  > .productInfoContainer
+  > .productDetails
+  > .productDContent
+  > .addCartWish
+  > .pQuant {
+  gap: 0.3rem;
+}
+
+.productInfo
+  > .productInfoContainer
+  > .productDetails
+  > .productDContent
+  > .addCartWish
+  > .pQuant
+  > input {
+  border: 1px solid var(--color2);
+  background-color: var(--light4);
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  outline: none;
+}
+
+.productInfo
+  > .productInfoContainer
+  > .productDetails
+  > .productDContent
+  > .addCartWish
+  > .pAddToCart {
+  background-color: var(--mainBg4);
+  border: 1px solid var(--mainBg4);
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 0.3rem;
+  width: 12rem;
+}
+
+.productInfo
+  > .productInfoContainer
+  > .productDetails
+  > .productDContent
+  > .addCartWish
+  > .pAddToCart:hover {
+  background-color: var(--mainBg3);
+  transition: 0.2s all ease-in-out;
+}
+
+.productInfo
+  > .productInfoContainer
+  > .productDetails
+  > .productDContent
+  > .addCartWish
+  > .pAddToWishlist {
+  background-color: var(--red);
+  border: 1px solid var(--red);
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  color: #fff;
+  width: 12rem;
+}
+
+.productInfo
+  > .productInfoContainer
+  > .productDetails
+  > .productDContent
+  > .addCartWish
+  > .pAddToWishlist:hover {
+  background-color: var(--red2);
+  transition: 0.2s all ease-in-out;
+}
+
+.productInfo
+  > .productInfoContainer
+  > .productDetails
+  > .productDContent
+  > .productSku {
+  color: var(--color3);
+}
+
+.productInfo
+  > .productInfoContainer
+  > .productDetails
+  > .productDContent
+  > .productSku
+  > span {
+  font-weight: 600;
+}
+
+.productInfo
+  > .productInfoContainer
+  > .productDetails
+  > .productDContent
+  > .productCat {
+  color: var(--color3);
+}
+
+.productInfo
+  > .productInfoContainer
+  > .productDetails
+  > .productDContent
+  > .productCat
+  > span {
+  font-weight: 600;
+}
+
+.productInfo
+  > .productInfoContainer
+  > .productDetails
+  > .productDContent
+  > .productBrand {
+  color: var(--color3);
+}
+
+.productInfo
+  > .productInfoContainer
+  > .productDetails
+  > .productDContent
+  > .productBrand
+  > span {
+  font-weight: 600;
+}
+
+.productInfo
+  > .productInfoContainer
+  > .productDetails
+  > .productDContent
+  > .productVendor {
+  color: var(--color3);
+}
+
+.productInfo
+  > .productInfoContainer
+  > .productDetails
+  > .productDContent
+  > .productVendor
+  > span {
+  font-weight: 600;
+}
